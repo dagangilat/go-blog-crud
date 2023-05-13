@@ -1,6 +1,5 @@
 package main
 
-
 import (
 	"fmt"
 	"strconv"
@@ -12,13 +11,14 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// the User is a struct that represent a single user
 type User struct {
 	FullNme  string
 	UserName string
 	Email    string
 }
 
-// the Post is a struct  that  represent  a single  post
+// the Post is a struct that represent a single post
 
 type Post struct {
 	Title  string
